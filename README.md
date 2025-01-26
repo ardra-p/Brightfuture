@@ -75,7 +75,7 @@ For Software:BRIGHTFUTURE
 ### Project Demo
 # Video
 
-drive link - https://drive.google.com/file/d/1kvub4-vrTnrNQ8lDmWew2xqdWfWhllOz/view?usp=drive_link
+drive link - https://drive.google.com/drive/folders/1956f6zvJ6qE31APt2EoMTrUMS8KtoWXg?usp=sharing
 
 ## Team Contributions
 - Ardhra P:Home Page,WebSite,Contents And Images
