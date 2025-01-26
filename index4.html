@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFILE</title>
+    <style>
+       
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(images/bg.jpeg);
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .profile-container {
+            background-color: #ffffff;
+            width: 90%;
+            max-width: 700px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 28px;
+            text-align: center;
+            color: #000;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .profile-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .profile-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 3px solid #000;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .profile-info {
+            margin-bottom: 20px;
+        }
+
+        .profile-info p {
+            font-size: 16px;
+            margin: 5px 0;
+            color: #444;
+        }
+
+        .profile-info p strong {
+            color: #000;
+        }
+
+        .details-section {
+            margin-top: 10px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background: #fafafa;
+        }
+
+        .details-section h2 {
+            font-size: 20px;
+            margin-bottom: 15px;
+            color: #000;
+            border-bottom: 2px solid #333;
+            display: inline-block;
+        }
+
+        .details-section ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .details-section ul li {
+            font-size: 16px;
+            color: #333;
+            padding: 5px 0;
+        }
+
+        .details-section ul li strong {
+            font-weight: bold;
+            color: #000;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 14px;
+            color: #666;
+        }
+
+     
+        .profile-container:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <h1>Ardra's Profile</h1>
+        <div class="profile-card">
+            <img src="images/profile.jpg" alt="Profile Image" class="profile-image">
+            <div class="profile-info">
+                <p><strong>Name:</strong> Ardra</p>
+                <p><strong>Email:</strong> ardra@example.com</p>
+                <p><strong>Phone:</strong> +91-9876543210</p>
+            </div>
+        </div>
+        <div class="details-section">
+            <h2>Personal Details</h2>
+            <ul>
+                <li><strong>Date of Birth:</strong> May 21, 2006</li>
+                <li><strong>Age:</strong> 18 years</li>
+                <li><strong>Gender:</strong> Female</li>
+                <li><strong>Blood Group:</strong> B+</li>
+                <li><strong>Address:</strong> Kerala, India</li>
+            </ul>
+        </div>
+        <div class="details-section">
+            <h2>Educational Details</h2>
+            <ul>
+                <li><strong>College:</strong> Government Engineering College, Thalassery</li>
+                <li><strong>Course:</strong> B.Tech in Computer Science</li>
+                <li><strong>Previous Background:</strong> Biology student in Plus One and Plus Two</li>
+            </ul>
+        </div>
+        <footer>
+            &copy; 2025 Ardra's Profile. All Rights Reserved.
+        </footer>
+    </div>
+</body>
+</html>
